@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html style="height: 100vh;">
+    <head>
+        <title>Extroversion</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/favicon-32x32.png">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body style="margin: 0; min-height: 100vh;">
+        <div class="column">
+            <h1 style="text-align: center; margin-bottom: 0;">The Year I Became an Extrovert</h1>
+            <div style="text-align: center;">
+                <p style="padding: 0; margin-top: 0;">December 31, 2025</p>
+                <p style="padding-top: 0; margin-top: 0;">Mara Solen</p>
+            </div>
+            <p>
+                2025 has been a really good year for me. I've been feeling much more confident in myself and my appearance and my work and
+                everything else really. I also got to have some fun international adventures, all three of which were super social the
+                entire time. I've identified as an introvert almost my entire life, so I expected these trips to be super draining for me,
+                and I thought I would need a long recovery after each of them. However, I've experienced the opposite. Every time I come
+                back from a trip, I feel super energized. I also started realizing that I gravitate towards social activities. I prefer
+                group fitness and team sports to solo exercise. I try to hang out with my friends all the time, and I love making new 
+                friends. I like dating even if the relationships don't go anywhere because it's fun to meet new people and talk and do
+                things together. Reflecting on these things has made me realize that I'm extroverted, and that all that time that I thought 
+                I was introverted was because I was unhappy with aspects of my life and I lacked confidence.
+            </p>
+            <div class="row">
+                <div><img src="images/mexicocity.jpg" style="border-radius: 1em;"><p>Me with my exchange friends in Teotihuacan</p></div>
+                <div><img src="images/vienna.jpg" style="border-radius: 1em;"><p>Me with some new researcher friends in Vienna</p></div>
+                <div><img src="images/volleyball.jpg" style="border-radius: 1em;"><p>Me with my volleyball team</p></div>
+            </div>
+            <p>
+                Since 2025 is ending, I decided to look back on my social activities throughout the year. I keep a very accurate calendar, so
+                I was able to count how many social activities I did. I grouped them into group fitness (like Rumble boxing or running with
+                friends), team sports (like volleyball and soccer), 1-on-1 hangouts, group (me and more than one other person) hangouts, 
+                parties, events, and dates. Then I calculated the average number of each of these activity types I do per weekday, and also 
+                how many per week. The calendar visualization below shows how often I did each activity type on each day. The taller the 
+                block is, the more I tended to do that activity type on that day. Then for each activity type, I highlighted (by making the 
+                blocks wider and more opaque) the N largest boxes where N is the average number of that type of activity I did in a week.
+                I used Google calendar stylings since that's the tool I use. This calendar kind of represents my average week!
+            </p>
+        </div>
+
+        <div id="visualization-container" class="visualization-container" first-render="true">
+            <svg id="visualization" class="visualization"></svg>
+        </div>
+
+        <div class="column">
+            <p>
+                I'll provide some insight into why activities tended to happen on certain days. My group fitness is mostly on Wednesday,
+                Thursday, and Saturday because those are days with classes from some of my favourite Rumble instructors, and also because 
+                I often had volleyball scheduled on other days which clashed with Rumble. Speaking of, I did most of my team sports on 
+                Tuesdays because my volleyball team was scheduled for Tuesdays and we played together for nearly the whole year, and the 
+                second place is on Sundays because I had both intramural volleyball and intramural soccer on Sundays for much of the year.
+                I guess that I hang out with individuals on Thursday, Saturday, and Sunday because I'm more free on weekends and I didn't 
+                have a lot of work meetings on Thursdays, nor did I have late night volleyball on Thursdays for the first 8 months of the 
+                year. Group hangouts happened mostly on the weekend because that's when most people were free, and the same logic can be
+                applied to dates, which again tended to happen on the weekend. I'm proud of how busy I kept myself with social activities
+                this year, since the people I care about and spend time with are probably the most important part of my life!
+            </p>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
