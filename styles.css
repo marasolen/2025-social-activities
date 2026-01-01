@@ -22,7 +22,7 @@ body {
 .visualization {
     margin: auto;
     display: block;
-    min-width: 1050px;
+    min-width: 1200px;
     min-height: 800px;
 }
 
@@ -96,6 +96,16 @@ p.caption {
     .visualization-container {
         width: 95%;
     }
+
+    .row {
+        display: block;
+        align-items: center;
+    }
+
+    .row div {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media screen and (orientation: portrait) and (max-width: 736px) {
@@ -113,5 +123,10 @@ p.caption {
 
     .visualization-container {
         width: 98%;
+    }
+
+    .row div {
+        width: 80%;
+        margin: auto;
     }
 }
